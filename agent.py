@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
+{
+  "request": {
+    "student": "Pratyaksh",
+    "repo": "project1",
+    "task": "initial setup"
+  },
+  "signature": "hex_encoded_signature",
+  "public_key": "hex_encoded_public_key"
+}
 
-import click
-
-@click.group()
-def cli():
-    """Student Agent CLI"""
-    pass
-
-if __name__ == "__main__":
-    cli()
